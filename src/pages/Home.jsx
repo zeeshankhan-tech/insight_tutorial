@@ -77,8 +77,10 @@ export default function Home() {
               transition={{ duration: 0.45, delay: 0.08, ease: [0.22, 1, 0.36, 1] }}
               className="mt-5 max-w-xl text-base leading-relaxed text-white/90 sm:text-lg"
             >
-              {TUITION_NAME} is led by {TUTOR_NAME}, a Biology & Chemistry educator with 10+ years
-              of classroom and coaching experience and a Master NLP Practitioner — guiding
+              {TUITION_NAME} is led by{' '}
+              <span className="font-semibold text-accent drop-shadow-sm">{TUTOR_NAME}</span>, a Biology
+              {' & '}Chemistry educator with 10+ years of classroom and coaching experience and a
+              Master&apos;s degree as an Neuro-Linguistic Programming (NLP) Practitioner — guiding
               students toward confident learning and resilient mindsets.
             </motion.p>
             <motion.div
