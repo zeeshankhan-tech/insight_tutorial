@@ -108,7 +108,6 @@ export default function Home() {
           >
             <div className="relative">
               <div className="absolute inset-0 rounded-full bg-accent/30 blur-2xl" aria-hidden />
-              {/* TODO: Replace with an actual photo of Arshana Ms — replace src with actual photo */}
               <img
                 src={PROFILE_IMAGE_URL}
                 width={300}

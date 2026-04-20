@@ -61,7 +61,6 @@ export default function About() {
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-10 text-center lg:flex-row lg:items-center lg:text-left">
           <div className="relative">
             <div className="absolute inset-0 rounded-full bg-accent/25 blur-2xl" aria-hidden />
-            {/* TODO: Replace with an actual photo of Arshana Ms — replace src with actual photo */}
             <img
               src={PROFILE_IMAGE_URL}
               width={280}
