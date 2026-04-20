@@ -1,0 +1,2 @@
+# SPA fallback (e.g. Netlify): serve index.html for all routes so /about works on refresh
+/*    /index.html   200
